@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Карточка товара</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="tea-page">
+<article class="product-card" data-product-card aria-label="Ананасовый улун">
+  <h1 class="product-card__title">Ананасовый улун</h1>
+  <div class="product-card__body">
+      <div class="product-card__image-wrapper">
+        <img class="product-card__image" src="https://media.teaboom.ru/images/e4bb1618-fb80-41e2-8758-86f884ce095d.jpg" width="640" height="640" alt="Ананасовый улун — скрученные чайные листья с кусочками цукатов">
+      </div>
+      <div class="product-card__details">
+        <p class="product-card__category">Улун <span class="product-card__category-separator" aria-hidden="true">·</span> Ароматизированный</p>
+        <form data-product-form>
+          <fieldset class="product-card__packages">
+            <legend class="product-card__packages-title">Выберите фасовку</legend>
+            <div class="product-card__package">
+              <label class="product-card__package-choice"><input class="product-card__package-input" type="radio" name="weight" value="100" checked><span class="product-card__package-weight">100 г</span></label>
+              <span class="product-card__price">326,40 ₽</span>
+              <span class="product-card__old-price"><span class="visually-hidden">Старая цена: </span><del>349,20 ₽</del></span>
+              <span class="product-card__discount">−7%</span>
+              <button class="product-card__cart-button" type="submit" name="package" value="100" aria-label="В корзину, 100 г"><span class="product-card__cart-icon" aria-hidden="true"></span><span class="product-card__cart-text">В корзину</span></button>
+              <p class="product-card__sku">Артикул: 01306</p>
+            </div>
+            <div class="product-card__package">
+              <label class="product-card__package-choice"><input class="product-card__package-input" type="radio" name="weight" value="500"><span class="product-card__package-weight">500 г</span></label>
+              <span class="product-card__price">1 432 ₽</span>
+              <span class="product-card__old-price"><span class="visually-hidden">Старая цена: </span><del>1 646 ₽</del></span>
+              <span class="product-card__discount">−13%</span>
+              <button class="product-card__cart-button" type="submit" name="package" value="500" aria-label="В корзину, 500 г"><span class="product-card__cart-icon" aria-hidden="true"></span><span class="product-card__cart-text">В корзину</span></button>
+              <p class="product-card__sku">Артикул: 01307</p>
+            </div>
+            <div class="product-card__package">
+              <label class="product-card__package-choice"><input class="product-card__package-input" type="radio" name="weight" value="1000"><span class="product-card__package-weight">1000 г</span></label>
+              <span class="product-card__price">2 064 ₽</span>
+              <span class="product-card__old-price"><span class="visually-hidden">Старая цена: </span><del>2 592 ₽</del></span>
+              <span class="product-card__discount">−20%</span>
+              <button class="product-card__cart-button" type="submit" name="package" value="1000" aria-label="В корзину, 1000 г"><span class="product-card__cart-icon" aria-hidden="true"></span><span class="product-card__cart-text">В корзину</span></button>
+              <p class="product-card__sku">Артикул: 01308</p>
+            </div>
+            <div class="product-card__package">
+              <label class="product-card__package-choice"><input class="product-card__package-input" type="radio" name="weight" value="5000"><span class="product-card__package-weight">5000 г</span></label>
+              <span class="product-card__price">6 320 ₽</span>
+              <span class="product-card__old-price"><span class="visually-hidden">Старая цена: </span><del>8 710 ₽</del></span>
+              <span class="product-card__discount">−27%</span>
+              <button class="product-card__cart-button" type="submit" name="package" value="5000" aria-label="В корзину, 5000 г"><span class="product-card__cart-icon" aria-hidden="true"></span><span class="product-card__cart-text">В корзину</span></button>
+              <p class="product-card__sku">Артикул: 01309</p>
+            </div>
+          </fieldset>
+          <p class="product-card__cart-status" data-cart-status role="status"></p>
+        </form>
+      </div>
+  </div>
+        <section class="product-card__description" aria-label="Короткое описание">
+          <h2 class="product-card__description-title">Описание</h2>
+          <p class="product-card__description-text">Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде — красивый крупный лист изумрудного цвета, скруткой листа напоминающий Те Гуань Инь. В прогретой посуде аромат свежей, весенней зелени и спелого ананаса. Скрученный лист медленно раскрывается, отдавая весь свой аромат. Тем, кому пришёлся по вкусу этот чай, может также понравиться <a class="product-card__description-link" href="https://teaboom.ru/product/svyazannij-chaj-ananasovyj-raj-100">связанный чай «Ананасовый рай».</a> <span class="product-card__ingredients-label">Состав:</span> китайский бирюзовый чай, цукаты, натуральные ароматические масла.</p>
+        </section>
+
+</article>
+</body>
+</html>
